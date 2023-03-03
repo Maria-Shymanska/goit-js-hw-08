@@ -21,7 +21,7 @@
     "modern-normalize": "^1.1.0",
     "@vimeo/player": "^2.18.0",
     "lodash.throttle": "^4.1.1",
-    "simplelightbox": "^2.12.1"
+    "Simplelightbox": "^2.12.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
