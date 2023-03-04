@@ -1,8 +1,8 @@
+import Player from '@vimeo/player';
 import throttle from 'lodash.throttle';
-import Vimeo from '@vimeo/player';
 
 const iframe = document.querySelector('iframe');
-const player = new player(iframe);
+const player = new Player(iframe);
 
 player.getVideoTitle().then(function (title) {});
 
