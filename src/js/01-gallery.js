@@ -1,6 +1,6 @@
+import SimpleLightbox from 'simplelightbox';
 import { galleryItems } from './gallery-items';
-
-console.log(galleryItems);
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryContainerUp = document.querySelector('.gallery');
 const cardsMarkup = createGalleryMark(galleryItems);
